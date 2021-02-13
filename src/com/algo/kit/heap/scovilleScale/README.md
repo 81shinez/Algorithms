@@ -1,0 +1,1 @@
+스코빌 지수 (https://programmers.co.kr/learn/courses/30/lessons/42626) [Heap]
