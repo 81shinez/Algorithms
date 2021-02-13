@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         AlgorithmRouter algorithmRouter = new AlgorithmRouter();
-        String[] strArr = {"119", "97674223", "1195524421"};
+        String[] strArr = {"mislav", "stanko", "mislav", "ana"};
+        String[] strArr2 = {"mislav", "stanko", "ana"};
 
         System.out.println("STARTS...");
         System.out.println("...INPUTS...");
@@ -13,7 +14,7 @@ public class Main {
         System.out.println(Arrays.toString(strArr));
 
         System.out.println("...OUTPUTS...");
-        System.out.println(algorithmRouter.phoneNumberList.execute(strArr));
+        System.out.println(algorithmRouter.failedRunner.execute(strArr, strArr2));
 
         System.out.println("END...");
     }

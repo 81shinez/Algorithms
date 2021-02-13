@@ -3,6 +3,7 @@ package com.algo;
 import com.algo.collazConjecture.CollazConjecture;
 import com.algo.kit.bfs_dfs.network.Network;
 import com.algo.kit.hash.bestAlbum.BestAlbum;
+import com.algo.kit.hash.failedRunner.FailedRunner;
 import com.algo.kit.sort.biggestNumber.BiggestNumber;
 import com.algo.kit.sort.h_index.H_index;
 import com.algo.kit.stackQueue.stockPrice.StockPrice;
@@ -20,4 +21,5 @@ public class AlgorithmRouter {
     public BestAlbum bestAlbum = new BestAlbum();
     public Network network = new Network();
     public H_index h_index = new H_index();
+    public FailedRunner failedRunner = new FailedRunner();
 }
