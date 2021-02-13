@@ -8,13 +8,17 @@ public class Main {
         String[] strArr = {"mislav", "stanko", "mislav", "ana"};
         String[] strArr2 = {"mislav", "stanko", "ana"};
 
+        int[] intArr1 = {93, 30, 55};
+        int[] intArr2 = {1,30,5};
+
         System.out.println("STARTS...");
         System.out.println("...INPUTS...");
 
         System.out.println(Arrays.toString(strArr));
 
         System.out.println("...OUTPUTS...");
-        System.out.println(algorithmRouter.failedRunner.execute(strArr, strArr2));
+//        System.out.println(algorithmRouter.developeFunction.execute(intArr1, intArr2));
+        System.out.println(Arrays.toString(algorithmRouter.developeFunction.execute(intArr1, intArr2)));
 
         System.out.println("END...");
     }
