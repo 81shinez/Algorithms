@@ -11,6 +11,7 @@ import com.algo.kit.stackQueue.stockPrice.StockPrice;
 import com.algo.kit.bruteForce.practiceTest.PracticeTest;
 import com.algo.kit.hash.phoneNumberList.PhoneNumberList;
 import com.algo.kit.heap.scovilleScale.ScovilleScale;
+import com.algo.kit.stackQueue.truckOnBridge.TruckOnBridge;
 
 public class AlgorithmRouter {
     public PhoneNumberList phoneNumberList = new PhoneNumberList();
@@ -24,4 +25,5 @@ public class AlgorithmRouter {
     public H_index h_index = new H_index();
     public FailedRunner failedRunner = new FailedRunner();
     public DevelopeFunction developeFunction = new DevelopeFunction();
+    public TruckOnBridge truckOnBridge = new TruckOnBridge();
 }
