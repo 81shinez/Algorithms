@@ -6,7 +6,9 @@ import com.algo.kit.hash.bestAlbum.BestAlbum;
 import com.algo.kit.hash.failedRunner.FailedRunner;
 import com.algo.kit.sort.biggestNumber.BiggestNumber;
 import com.algo.kit.sort.h_index.H_index;
+import com.algo.kit.sort.k_th_number.K_th_number;
 import com.algo.kit.stackQueue.developeFunction.DevelopeFunction;
+import com.algo.kit.stackQueue.printer.Printer;
 import com.algo.kit.stackQueue.stockPrice.StockPrice;
 import com.algo.kit.bruteForce.practiceTest.PracticeTest;
 import com.algo.kit.hash.phoneNumberList.PhoneNumberList;
@@ -26,4 +28,6 @@ public class AlgorithmRouter {
     public FailedRunner failedRunner = new FailedRunner();
     public DevelopeFunction developeFunction = new DevelopeFunction();
     public TruckOnBridge truckOnBridge = new TruckOnBridge();
+    public K_th_number k_th_number = new K_th_number();
+    public Printer printer = new Printer();
 }
