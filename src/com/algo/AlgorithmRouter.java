@@ -4,6 +4,7 @@ import com.algo.collazConjecture.CollazConjecture;
 import com.algo.kit.bfs_dfs.network.Network;
 import com.algo.kit.hash.bestAlbum.BestAlbum;
 import com.algo.kit.hash.failedRunner.FailedRunner;
+import com.algo.kit.heap.diskController.DiskController;
 import com.algo.kit.sort.biggestNumber.BiggestNumber;
 import com.algo.kit.sort.h_index.H_index;
 import com.algo.kit.sort.k_th_number.K_th_number;
@@ -30,4 +31,5 @@ public class AlgorithmRouter {
     public TruckOnBridge truckOnBridge = new TruckOnBridge();
     public K_th_number k_th_number = new K_th_number();
     public Printer printer = new Printer();
+    public DiskController diskController = new DiskController();
 }
