@@ -15,6 +15,7 @@ import com.algo.kit.bruteForce.practiceTest.PracticeTest;
 import com.algo.kit.hash.phoneNumberList.PhoneNumberList;
 import com.algo.kit.heap.scovilleScale.ScovilleScale;
 import com.algo.kit.stackQueue.truckOnBridge.TruckOnBridge;
+import com.algo.kit.greedy.traingSuit.TrainingSuit;
 
 public class AlgorithmRouter {
     public PhoneNumberList phoneNumberList = new PhoneNumberList();
@@ -32,4 +33,5 @@ public class AlgorithmRouter {
     public K_th_number k_th_number = new K_th_number();
     public Printer printer = new Printer();
     public DiskController diskController = new DiskController();
+    public TrainingSuit trainingSuit = new TrainingSuit();
 }
