@@ -26,9 +26,11 @@ H-Index (https://programmers.co.kr/learn/courses/30/lessons/42747) [정렬]<br /
 베스트앨범 (https://programmers.co.kr/learn/courses/30/lessons/42579) [해시]<br />
 
 
-모의고사 (https://programmers.co.kr/learn/courses/30/lessons/42840) [완전탐색]
+모의고사 (https://programmers.co.kr/learn/courses/30/lessons/42840) [완전탐색]<br />
 
-네트워크 (https://programmers.co.kr/learn/courses/30/lessons/43162) [bfs/dfs]
+네트워크 (https://programmers.co.kr/learn/courses/30/lessons/43162) [bfs/dfs]<br />
+
+체육복 (https://programmers.co.kr/learn/courses/30/lessons/42862) [탐욕법]<br />
 
 콜라츠 추측 (https://programmers.co.kr/learn/courses/30/lessons/12943)
 
