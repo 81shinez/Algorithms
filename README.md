@@ -8,6 +8,7 @@ https://81shinez.tistory.com
 
 디스크 컨트롤러 (https://programmers.co.kr/learn/courses/30/lessons/42627) [Heap]<br />
 스코빌 지수 (https://programmers.co.kr/learn/courses/30/lessons/42626) [Heap]<br />
+이중우선순위큐 (https://programmers.co.kr/learn/courses/30/lessons/42628) [Heap]<br />
 
 
 다리를 지나는 트럭(https://programmers.co.kr/learn/courses/30/lessons/42583) [스택/큐]<br />

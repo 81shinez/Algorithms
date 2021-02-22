@@ -1,18 +1,16 @@
 package com.algo;
-
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         AlgorithmRouter algorithmRouter = new AlgorithmRouter();
 
-        int n = 5;
-        int[] intArr1 = {2,4};
-        int[] intArr2 = {1,3,5};
+        String[] strArr2 = {"I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"};
 
         System.out.println("STARTS...");
-        System.out.println("OUTPUTS-> ");
 
-        System.out.println(algorithmRouter.trainingSuit.execute(5, intArr1, intArr2));
+        System.out.println("OUTPUTS-> ");
+        System.out.println(Arrays.toString(algorithmRouter.doublePriorityQueue.execute(strArr2)));
 
         System.out.println("END...");
 
