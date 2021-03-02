@@ -3,6 +3,7 @@ package com.algo;
 import com.algo.CodingTest.NaverFinancial.NaverFinancial;
 import com.algo.collazConjecture.CollazConjecture;
 import com.algo.kit.bfs_dfs.network.Network;
+import com.algo.kit.bruteForce.carpet.Carpet;
 import com.algo.kit.bruteForce.findingPrimeNumber.FindingPrimeNumber;
 import com.algo.kit.hash.bestAlbum.BestAlbum;
 import com.algo.kit.hash.failedRunner.FailedRunner;
@@ -38,6 +39,12 @@ public class AlgorithmRouter {
     public DiskController diskController = new DiskController();
     public TrainingSuit trainingSuit = new TrainingSuit();
     public DoublePriorityQueue doublePriorityQueue = new DoublePriorityQueue();
+    public int findingPrimeNumber(String numbers){
+        return FindingPrimeNumber.execute(numbers);
+    }
+    public int[] carpet(int brown, int yellow){
+        return Carpet.execute(brown, yellow);
+    }
 
     public NaverFinancial naverFinancial = new NaverFinancial();
 }

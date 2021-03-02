@@ -1,5 +1,4 @@
 package com.algo;
-import com.algo.kit.bruteForce.findingPrimeNumber.FindingPrimeNumber;
 
 import java.util.Arrays;
 
@@ -14,7 +13,7 @@ public class Main {
         System.out.println("STARTS...");
 
         System.out.println("OUTPUTS-> ");
-        System.out.println(FindingPrimeNumber.execute("012"));
+        System.out.println(algorithmRouter.carpet(24,24));
 
         System.out.println("END...");
 
