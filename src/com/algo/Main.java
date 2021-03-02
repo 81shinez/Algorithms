@@ -13,7 +13,7 @@ public class Main {
         System.out.println("STARTS...");
 
         System.out.println("OUTPUTS-> ");
-        System.out.println(algorithmRouter.carpet(24,24));
+        System.out.println(algorithmRouter.expressWithN(5,12));
 
         System.out.println("END...");
 

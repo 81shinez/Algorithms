@@ -5,6 +5,7 @@ import com.algo.collazConjecture.CollazConjecture;
 import com.algo.kit.bfs_dfs.network.Network;
 import com.algo.kit.bruteForce.carpet.Carpet;
 import com.algo.kit.bruteForce.findingPrimeNumber.FindingPrimeNumber;
+import com.algo.kit.dynamicProgramming.expressWithN.ExpressWithN;
 import com.algo.kit.hash.bestAlbum.BestAlbum;
 import com.algo.kit.hash.failedRunner.FailedRunner;
 import com.algo.kit.heap.diskController.DiskController;
@@ -44,6 +45,9 @@ public class AlgorithmRouter {
     }
     public int[] carpet(int brown, int yellow){
         return Carpet.execute(brown, yellow);
+    }
+    public int expressWithN(int N, int number){
+        return ExpressWithN.execute(N, number);
     }
 
     public NaverFinancial naverFinancial = new NaverFinancial();
