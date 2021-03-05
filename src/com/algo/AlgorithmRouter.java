@@ -3,6 +3,7 @@ package com.algo;
 import com.algo.CodingTest.NaverFinancial.NaverFinancial;
 import com.algo.collazConjecture.CollazConjecture;
 import com.algo.kit.bfs_dfs.network.Network;
+import com.algo.kit.binarySearch.immigrationCheck.ImmigrationCheck;
 import com.algo.kit.bruteForce.carpet.Carpet;
 import com.algo.kit.bruteForce.findingPrimeNumber.FindingPrimeNumber;
 import com.algo.kit.dynamicProgramming.expressWithN.ExpressWithN;
@@ -49,6 +50,7 @@ public class AlgorithmRouter {
     public int expressWithN(int N, int number){
         return ExpressWithN.execute(N, number);
     }
+    public long immigrationCheck(int n, int[] times){ return ImmigrationCheck.execute(n, times); }
 
     public NaverFinancial naverFinancial = new NaverFinancial();
 }

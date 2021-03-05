@@ -33,5 +33,7 @@ H-Index (https://programmers.co.kr/learn/courses/30/lessons/42747) [정렬]<br /
 <br/>
 N으로 표현 (https://programmers.co.kr/learn/courses/30/lessons/42895) [동적계획법]<br />
 <br/>
+입국심사 (https://programmers.co.kr/learn/courses/30/lessons/43238) [이분탐색]<br />
+<br/>
 콜라츠 추측 (https://programmers.co.kr/learn/courses/30/lessons/12943)
 
