@@ -35,5 +35,7 @@ N으로 표현 (https://programmers.co.kr/learn/courses/30/lessons/42895) [동�
 <br/>
 입국심사 (https://programmers.co.kr/learn/courses/30/lessons/43238) [이분탐색]<br />
 <br/>
+가장 먼 노드 (https://programmers.co.kr/learn/courses/30/lessons/49189) [그래프]<br />
+<br/>
 콜라츠 추측 (https://programmers.co.kr/learn/courses/30/lessons/12943)
 
