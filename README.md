@@ -1,5 +1,5 @@
 # Blog
-https://81shinez.tistory.com
+https://81shinez.tistory.com/category/Algorithms/Programmers
 
 # 문제목록
 
