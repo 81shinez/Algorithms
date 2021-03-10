@@ -1,8 +1,5 @@
 # Blog
-
 https://81shinez.tistory.com
-
-
 
 # 문제목록
 
@@ -33,6 +30,7 @@ H-Index (https://programmers.co.kr/learn/courses/30/lessons/42747) [정렬]<br /
 조이스틱 (https://programmers.co.kr/learn/courses/30/lessons/42860) [탐욕법]<br />
 <br/>
 N으로 표현 (https://programmers.co.kr/learn/courses/30/lessons/42895) [동적계획법]<br />
+정수 삼각형 (https://programmers.co.kr/learn/courses/30/lessons/43105) [동적계획법]<br />
 <br/>
 입국심사 (https://programmers.co.kr/learn/courses/30/lessons/43238) [이분탐색]<br />
 <br/>

@@ -7,6 +7,7 @@ import com.algo.kit.binarySearch.immigrationCheck.ImmigrationCheck;
 import com.algo.kit.bruteForce.carpet.Carpet;
 import com.algo.kit.bruteForce.findingPrimeNumber.FindingPrimeNumber;
 import com.algo.kit.dynamicProgramming.expressWithN.ExpressWithN;
+import com.algo.kit.dynamicProgramming.integerTriangle.IntegerTriangle;
 import com.algo.kit.graph.farthestNode.FarthestNode;
 import com.algo.kit.greedy.joyStick.JoyStick;
 import com.algo.kit.hash.bestAlbum.BestAlbum;
@@ -55,6 +56,7 @@ public class AlgorithmRouter {
     public long immigrationCheck(int n, int[] times){ return ImmigrationCheck.execute(n, times); }
     public int farthestNode(int n, int[][] edge){return FarthestNode.execute(n, edge);}
     public int joyStick(String name){return JoyStick.execute(name);}
+    public int integerTriangle(int[][] triangle){return IntegerTriangle.execute(triangle);}
 
     public NaverFinancial naverFinancial = new NaverFinancial();
 }
