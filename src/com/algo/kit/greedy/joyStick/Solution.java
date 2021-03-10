@@ -1,22 +1,30 @@
 package com.algo.kit.greedy.joyStick;
 
 class Solution {
-    int cnt = 0;
+    class Pair<L, R>{
+        L pointer;
+        R cnt;
+        Pair(L pointer, R cnt){
+            this.pointer = pointer;
+            this.cnt = cnt;
+        }
+    }
 
-    int findClosest(int strPointer, String name){
-        if(name.charAt(strPointer) != 'A') return 0;
+    Pair findClosest(int strPointer, String name){
+        if(name.charAt(strPointer) != 'A') return new Pair(0, 0);
         int left = strPointer;
         int right = strPointer;
+        int cnt = 0;
         for(int i = 0; i < name.length() / 2 + 1; i++){
             cnt++;
             if(right == name.length() - 1) right = 0;
             else right++;
-            if(name.charAt(right) != 'A') return right;
+            if(name.charAt(right) != 'A') return new Pair(right, cnt);
             if(left == 0) left = name.length() - 1;
             else left--;
-            if(name.charAt(left) != 'A') return left;
+            if(name.charAt(left) != 'A') return new Pair(left, cnt);
         }
-        return -1;
+        return new Pair(-1, cnt);
     }
 
     int countChar(char nameChar){
@@ -28,19 +36,15 @@ class Solution {
 
     public int solution(String name) {
         int answer = 0;
-        int strPointer = 0;
 
-        cnt = 0;
+        Pair<Integer, Integer> pair = new Pair<>(0,0);
 
-        while(strPointer != -1){
-            cnt = 0;
-            strPointer = findClosest(strPointer, name);
-            if(strPointer == -1) break;
-            else answer += countChar(name.charAt(strPointer));
-            name = name.substring(0, strPointer).concat("A").concat(name.substring(strPointer+1));
-            if(strPointer != -1) {
-                answer += cnt;
-            }
+        while(pair.pointer != -1){
+            pair = findClosest(pair.pointer, name);
+            if(pair.pointer == -1) break;
+            else answer += countChar(name.charAt(pair.pointer));
+            name = name.substring(0, pair.pointer).concat("A").concat(name.substring(pair.pointer+1));
+            answer += pair.cnt;
         }
         return answer;
     }
