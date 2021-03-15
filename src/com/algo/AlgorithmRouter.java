@@ -3,6 +3,7 @@ package com.algo;
 import com.algo.CodingTest.NaverFinancial.NaverFinancial;
 import com.algo.collazConjecture.CollazConjecture;
 import com.algo.kit.bfs_dfs.network.Network;
+import com.algo.kit.bfs_dfs.transformWord.TransformWord;
 import com.algo.kit.binarySearch.immigrationCheck.ImmigrationCheck;
 import com.algo.kit.bruteForce.carpet.Carpet;
 import com.algo.kit.bruteForce.findingPrimeNumber.FindingPrimeNumber;
@@ -57,6 +58,7 @@ public class AlgorithmRouter {
     public int farthestNode(int n, int[][] edge){return FarthestNode.execute(n, edge);}
     public int joyStick(String name){return JoyStick.execute(name);}
     public int integerTriangle(int[][] triangle){return IntegerTriangle.execute(triangle);}
+    public int transformWord(String begin, String target, String[] words){return TransformWord.execute(begin, target, words);}
 
     public NaverFinancial naverFinancial = new NaverFinancial();
 }
