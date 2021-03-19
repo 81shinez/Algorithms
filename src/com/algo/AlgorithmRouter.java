@@ -10,6 +10,7 @@ import com.algo.kit.bruteForce.findingPrimeNumber.FindingPrimeNumber;
 import com.algo.kit.dynamicProgramming.expressWithN.ExpressWithN;
 import com.algo.kit.dynamicProgramming.integerTriangle.IntegerTriangle;
 import com.algo.kit.graph.farthestNode.FarthestNode;
+import com.algo.kit.graph.rank.Rank;
 import com.algo.kit.greedy.joyStick.JoyStick;
 import com.algo.kit.hash.bestAlbum.BestAlbum;
 import com.algo.kit.hash.failedRunner.FailedRunner;
@@ -59,6 +60,7 @@ public class AlgorithmRouter {
     public int joyStick(String name){return JoyStick.execute(name);}
     public int integerTriangle(int[][] triangle){return IntegerTriangle.execute(triangle);}
     public int transformWord(String begin, String target, String[] words){return TransformWord.execute(begin, target, words);}
+    public int rank(int n, int[][] results){return Rank.execute(n, results);}
 
     public NaverFinancial naverFinancial = new NaverFinancial();
 }
