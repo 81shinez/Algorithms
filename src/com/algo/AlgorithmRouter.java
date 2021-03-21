@@ -1,6 +1,7 @@
 package com.algo;
 
 import com.algo.CodingTest.NaverFinancial.NaverFinancial;
+import com.algo.CodingTest.Line20210320.Line20210320;
 import com.algo.collazConjecture.CollazConjecture;
 import com.algo.kit.bfs_dfs.network.Network;
 import com.algo.kit.bfs_dfs.transformWord.TransformWord;
@@ -62,5 +63,6 @@ public class AlgorithmRouter {
     public int transformWord(String begin, String target, String[] words){return TransformWord.execute(begin, target, words);}
     public int rank(int n, int[][] results){return Rank.execute(n, results);}
 
+    public int[] line(String str){return Line20210320.execute(str);}
     public NaverFinancial naverFinancial = new NaverFinancial();
 }
