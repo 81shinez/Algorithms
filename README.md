@@ -29,6 +29,7 @@ H-Index (https://programmers.co.kr/learn/courses/30/lessons/42747) [정렬]<br /
 <br/>
 체육복 (https://programmers.co.kr/learn/courses/30/lessons/42862) [탐욕법]<br />
 조이스틱 (https://programmers.co.kr/learn/courses/30/lessons/42860) [탐욕법]<br />
+큰 수 만들기 (https://programmers.co.kr/learn/courses/30/lessons/42883) [탐욕법]<br />
 <br/>
 N으로 표현 (https://programmers.co.kr/learn/courses/30/lessons/42895) [동적계획법]<br />
 정수 삼각형 (https://programmers.co.kr/learn/courses/30/lessons/43105) [동적계획법]<br />
