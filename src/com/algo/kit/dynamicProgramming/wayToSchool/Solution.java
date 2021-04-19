@@ -2,7 +2,6 @@ package com.algo.kit.dynamicProgramming.wayToSchool;
 
 class Solution {
     public int solution(int m, int n, int[][] puddles) {
-        int answer = 0;
         boolean[][] isPud = new boolean[m][n];
         long[][] map = new long[m][n];
 
