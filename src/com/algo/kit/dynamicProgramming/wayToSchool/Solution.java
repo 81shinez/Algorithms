@@ -12,11 +12,7 @@ class Solution {
                 map[i][j] = 0;
             }
         }
-        for(boolean[] boolArr : isPud){
-            for(boolean bool : boolArr){
-                bool = false;
-            }
-        }
+
         for(int[] intArr : puddles){
             isPud[intArr[0] - 1][intArr[1] - 1] = true;
         }
