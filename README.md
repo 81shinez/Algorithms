@@ -26,6 +26,7 @@ H-Index (https://programmers.co.kr/learn/courses/30/lessons/42747) [정렬]<br /
 <br/>
 네트워크 (https://programmers.co.kr/learn/courses/30/lessons/43162) [bfs/dfs]<br />
 단어 변환 (https://programmers.co.kr/learn/courses/30/lessons/43163) [bfs/dfs]<br />
+타겟 넘버 (https://programmers.co.kr/learn/courses/30/lessons/43165) [bfs/dfs]<br />
 <br/>
 체육복 (https://programmers.co.kr/learn/courses/30/lessons/42862) [탐욕법]<br />
 조이스틱 (https://programmers.co.kr/learn/courses/30/lessons/42860) [탐욕법]<br />
