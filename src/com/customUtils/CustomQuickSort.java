@@ -1,7 +1,6 @@
 package com.customUtils;
 
 public class CustomQuickSort {
-//    public static void printData(int[] data, int number) { for (int i = 0; i < number; i++) { System.out.print(data[i] + " "); } System.out.println(); }
     private static void arrSwap(int[] intArray, int idxLeft, int idxRight){
         int swapVal = intArray[idxLeft];
         intArray[idxLeft] = intArray[idxRight];
@@ -12,22 +11,23 @@ public class CustomQuickSort {
     return: int[] 정렬된 배열
      */
     public static void sort(int[] intArray, int start, int end){
-        double pivot = (intArray[start] + intArray[end]) / 2;
+        // pivot 값: 배열의 처음, 중간, 끝 3개 값의 평균
+        double pivot = (intArray[start] + intArray[end] + intArray[(start+end)/2])/3;
+
         int leftIdx = start;
         int rightIdx = end;
 
-        while(leftIdx < rightIdx){
-            while(intArray[leftIdx] < pivot) leftIdx++;
-            while(intArray[rightIdx] > pivot) rightIdx--;
+        while(leftIdx <= rightIdx){
+            while (intArray[leftIdx] < pivot) leftIdx++;
+            while (intArray[rightIdx] > pivot) rightIdx--;
             if(leftIdx <= rightIdx){
                 arrSwap(intArray, leftIdx, rightIdx);
                 leftIdx++;
                 rightIdx--;
             }
         }
-
         if(start < rightIdx) sort(intArray, start, rightIdx);
-        if(leftIdx < end) sort(intArray, leftIdx,end);
+        if(leftIdx < end) sort(intArray, leftIdx, end);
     }
 
     /*
