@@ -10,9 +10,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CustomQuickSortTest {
-    private static int number = 12;
+    private static final int number = 12;
     private static int[] data;
-    private static int cnt = 0; // quick_sort 호출 횟수
+    private static final int cnt = 0; // quick_sort 호출 횟수
 
     public static void printData(int[] data, int number) { for (int i = 0; i < number; i++) { System.out.print(data[i] + " "); } System.out.println(); }
 

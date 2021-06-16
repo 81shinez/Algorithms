@@ -2,7 +2,7 @@ package com.customUtils;
 
 public class StrategyPattern {
     public abstract class Robot {
-        private String name;
+        private final String name;
         private AttackStrategy attackStrategy;
         private MovingStrategy movingStrategy;
 
@@ -47,7 +47,7 @@ public class StrategyPattern {
 
     // 인터페이스
     interface AttackStrategy {
-        public void attack();
+        void attack();
     }
 
     // 구체적인 클래스
@@ -65,7 +65,7 @@ public class StrategyPattern {
 
     // 인터페이스
     interface MovingStrategy {
-        public void move();
+        void move();
     }
 
     // 구체적인 클래스

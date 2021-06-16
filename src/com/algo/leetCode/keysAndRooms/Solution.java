@@ -22,6 +22,6 @@ class Solution {
             }
         }
 
-        return isOpened.size() == rooms.size() ? true : false;
+        return isOpened.size() == rooms.size();
     }
 }

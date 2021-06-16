@@ -11,7 +11,7 @@ public class Codec {
     public String encode(String longUrl) {
         decodeMap.put(String.valueOf(counter), longUrl);
         counter++;
-        return "http://tinyurl.com/"+String.valueOf(counter-1);
+        return "http://tinyurl.com/"+ (counter - 1);
     }
 
     // Decodes a shortened URL to its original URL.

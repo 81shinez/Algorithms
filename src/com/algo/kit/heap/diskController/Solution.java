@@ -66,7 +66,7 @@ class Solution {
                 if(pQueueTime.isEmpty()) break;
                 else {time = pQueueTime.peekFirst().left;}
             }
-        };
+        }
 
         return sum/jobs.length;
     }

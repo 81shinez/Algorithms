@@ -15,7 +15,7 @@ class Solution {
             }
         }
 
-        for(String str : participant){;
+        for(String str : participant){
             if(hashmap.get(str) == null){
                 return str;
             } else {
